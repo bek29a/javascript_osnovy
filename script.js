@@ -136,9 +136,11 @@ const options = {
 
 options.makeTest();
 
-console.log(Object.keys(options).length);
+const {border, bg} = options.colors;
+console.log(border);
 
-// // console.log(options["colors"]["border"]);
+// console.log(Object.keys(options).length);
+// console.log(options["colors"]["border"]);
 // // delete options.name;
 // // console.log(options);
 
