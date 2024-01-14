@@ -108,6 +108,8 @@ function learnJS(lang, callback) {
     callback();
 }
 
-learnJS('Javascript', function() {
-    console.log("Я прошел этот урок!");
-}); 
+function done(){
+    console.log('Я прошел этот урок!');
+}
+
+learnJS('Javascript', done); 
